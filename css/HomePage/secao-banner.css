@@ -1,0 +1,27 @@
+.secao-banner {
+  background: #2f86d6;
+  color: #fff;
+}
+
+.secao-banner-container {
+  padding: 120px 0px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.banner-textos,
+.banner-imagem {
+  width: 50%;
+}
+
+.banner-textos h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.banner-textos p {
+  font-size: 16px;
+  line-height: 1.5;
+}

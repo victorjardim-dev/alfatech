@@ -1,7 +1,7 @@
 # Projeto AlfaTech
 
 Projeto feito nas missões da Devmedia, onde utilizei html, css e JavaScript.
-Coloquei em prática semântica, responsividade, tabelas e navegação entre páginas.
+Coloquei em prática semântica, responsividade, tabelas, navegação entre páginas, pseudo classes e pseudo elementos, e flexbox.
 
 Veja o projeto online:
 
