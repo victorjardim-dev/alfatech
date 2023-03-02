@@ -1,0 +1,37 @@
+.secao-anuncio {
+  background: #233032;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.secao-anuncio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.anuncio-textos h2 {
+  font-size: 24px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.anuncio-textos p {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.anuncio-2 {
+  background: #2f86d6;
+}
+
+.anuncio-2 .anuncio-textos h2 {
+  width: 60%;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.anuncio-2 .anuncio-cta a.btn-cta {
+  background: #233032;
+}

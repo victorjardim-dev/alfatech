@@ -13,7 +13,7 @@
 
 .banner-textos,
 .banner-imagem {
-  width: 50%;
+  flex: 1;
 }
 
 .banner-textos h2 {
@@ -23,5 +23,5 @@
 
 .banner-textos p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.7;
 }

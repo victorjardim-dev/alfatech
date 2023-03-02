@@ -1,0 +1,36 @@
+.secao-informacoes {
+  padding: 80px 0;
+}
+
+.secao-informacoes .subtitulo {
+  padding: 0 120px;
+}
+
+.info-container-box {
+  margin: 20px 0;
+  display: flex;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.info-container-box .info-box {
+  flex: 1;
+  margin: 20px 0;
+}
+
+.info-container-box .info-box img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.info-container-box .info-box h3 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.info-container-box .info-box p {
+  font-size: 16px;
+}

@@ -1,0 +1,57 @@
+.secao-planos {
+  color: #000;
+  text-align: center;
+  padding: 80px 0;
+  background: #f1f3f7;
+}
+
+.tabela-informacoes {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0px 0px 24px 12px rgba(47, 134, 214, 1);
+}
+
+.tabela-informacoes thead th {
+  padding-top: 40px;
+}
+
+.tabela-informacoes tbody td {
+  padding: 16px 0;
+}
+
+.tabela-informacoes tbody tr {
+  font-weight: bold;
+}
+
+.tabela-informacoes tbody tr:nth-child(odd) {
+  background: #f1f3f7;
+}
+
+.tabela-informacoes tbody tr td:hover {
+  background: #2f86d6;
+}
+
+.tabela-informacoes img {
+  width: 100px;
+  margin: 20px auto;
+}
+
+.tabela-informacoes h3 {
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.tabela-informacoes p {
+  font-size: 13px;
+  width: 49%;
+  margin: 20px auto;
+  line-height: 1.5;
+  color: #a89f9f;
+  font-weight: normal;
+}

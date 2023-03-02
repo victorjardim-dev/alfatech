@@ -14,16 +14,19 @@ header {
   align-items: center;
   justify-content: flex-start;
 }
+
 .logo img {
   width: 60px;
   margin-right: 12px;
 }
+
 .logo h1 {
   font-size: 32px;
   color: #000;
   line-height: 1;
   margin-bottom: 8px;
 }
+
 .logo p {
   font-size: 16px;
   line-height: 1;
