@@ -1,6 +1,6 @@
 .secao-anuncio {
   background: #233032;
-  padding: 40px 0;
+  padding: 40px 20px;
   color: #fff;
 }
 
@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .anuncio-textos h2 {
@@ -26,12 +25,30 @@
   background: #2f86d6;
 }
 
+.anuncio-2 .anuncio-textos {
+  width: 55%;
+}
+
 .anuncio-2 .anuncio-textos h2 {
-  width: 60%;
   line-height: 1.5;
   margin-bottom: 0;
 }
 
 .anuncio-2 .anuncio-cta a.btn-cta {
   background: #233032;
+}
+
+@media (max-width: 800px) {
+  .secao-anuncio-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .anuncio-textos p,
+  .anuncio-textos h2 {
+    text-align: center;
+  }
+  .anuncio-2 .anuncio-textos {
+    width: 100%;
+  }
 }

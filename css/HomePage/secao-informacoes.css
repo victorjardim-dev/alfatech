@@ -1,5 +1,5 @@
 .secao-informacoes {
-  padding: 80px 0;
+  padding: 80px 0px;
 }
 
 .secao-informacoes .subtitulo {
@@ -33,4 +33,15 @@
 
 .info-container-box .info-box p {
   font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  .secao-informacoes .subtitulo {
+    padding: 0;
+  }
+  .info-container-box {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
 }

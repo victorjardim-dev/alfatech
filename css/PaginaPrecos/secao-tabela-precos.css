@@ -1,0 +1,67 @@
+.secao-tabela-precos {
+  padding: 80px 0;
+}
+
+.secao-tabela-precos table {
+  background: #fff;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.secao-tabela-precos table td:first-child  {
+  font-weight: bold;
+}
+
+.secao-tabela-precos table th p  {
+  font-size: 14px;
+  color: #a89f9f;
+  font-weight: normal;
+}
+
+.secao-tabela-precos table th,
+.secao-tabela-precos table td {
+  padding: 16px;
+}
+
+.secao-tabela-precos table th:not(:first-child),
+.secao-tabela-precos table td {
+  border: 2px solid #f1f3f7;
+}
+
+.secao-tabela-precos table th:not(:first-child),
+.secao-tabela-precos table td:first-child {
+  border-color: #fff;
+}
+
+.secao-tabela-precos table tbody td {
+  text-align: center;
+}
+
+.secao-tabela-precos table thead th:not(:first-child),
+.secao-tabela-precos table tbody td:first-child {
+  background: #f1f3f7;
+}
+
+.secao-tabela-precos table thead th:not(:first-child):hover {
+  background: #2f86d6;
+  color: #fff;
+}
+
+.secao-tabela-precos table tbody td > span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2f86d6;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .secao-tabela-precos table {
+    min-width: 900px;
+  }
+  .planos .container-tabela {
+    overflow-x: scroll;
+    min-height: 1800px;
+  }
+}

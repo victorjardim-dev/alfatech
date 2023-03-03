@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 32px 0px;
+  padding: 32px 20px;
 }
 
 .logo {
@@ -36,13 +36,34 @@ header {
 
 .nav-menu ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 12px;
 }
 
 .nav-menu ul li a {
-  padding: 4px;
+  padding: 10px;
   font-size: 18px;
   color: #233032;
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .topo {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .nav-menu ul {
+    gap: 8px;
+  }
+  .nav-menu ul li {
+    flex: 1;
+  }
+  .nav-menu ul li a {
+    border: 1px solid;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+  }
 }

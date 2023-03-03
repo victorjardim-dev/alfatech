@@ -1,0 +1,15 @@
+.precos footer {
+  background: #2f86d6;
+}
+
+.precos .footer {
+  color: #fff;
+}
+
+.precos .footer .logo h2 {
+  color: #000;
+}
+
+.precos .footer-contato {
+  margin-top: 20px;
+}

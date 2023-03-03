@@ -4,7 +4,7 @@
 }
 
 .secao-banner-container {
-  padding: 120px 0px;
+  padding: 120px 20px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -24,4 +24,11 @@
 .banner-textos p {
   font-size: 16px;
   line-height: 1.7;
+}
+
+@media (max-width: 800px) {
+  .secao-banner-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

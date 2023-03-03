@@ -1,0 +1,19 @@
+.precos .logo h1 {
+  color: #000;
+}
+
+.precos header {
+  background: #2f86d6;
+}
+
+.precos .logo p {
+  color: #fff;
+}
+
+.precos .nav-menu ul li a {
+  color: #fff;
+}
+
+.nav-menu ul li a:hover {
+  color: #14528b;
+}

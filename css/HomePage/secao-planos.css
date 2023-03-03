@@ -5,8 +5,13 @@
   background: #f1f3f7;
 }
 
+.container-tabela {
+  padding: 0 20px;
+}
+
 .tabela-informacoes {
-  width: 90%;
+  min-width: 900px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 80px;
   background: #fff;
@@ -20,7 +25,12 @@
 }
 
 .tabela-informacoes tbody td {
-  padding: 16px 0;
+  padding: 20px;
+}
+
+.tabela-informacoes th,
+.tabela-informacoes td {
+  border: 2px solid #f1f3f7;
 }
 
 .tabela-informacoes tbody tr {
@@ -28,7 +38,7 @@
 }
 
 .tabela-informacoes tbody tr:nth-child(odd) {
-  background: #f1f3f7;
+  background: #f6f6f6;
 }
 
 .tabela-informacoes tbody tr td:hover {
@@ -54,4 +64,11 @@
   line-height: 1.5;
   color: #a89f9f;
   font-weight: normal;
+}
+
+@media (max-width: 900px) {
+  .container-tabela {
+    overflow-x: scroll;
+    min-height: 750px;
+  }
 }
